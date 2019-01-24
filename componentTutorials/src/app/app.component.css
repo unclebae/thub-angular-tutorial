@@ -1,0 +1,16 @@
+div.container{
+    display: grid;
+    grid-template-columns: 15% auto;
+    grid-gap: 10px;
+}
+
+div.right{
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-gap: 10px;
+}
+
+div.right app-main-stage {
+    grid-row: 2 / 8;
+    border: 1px solid red;
+}
