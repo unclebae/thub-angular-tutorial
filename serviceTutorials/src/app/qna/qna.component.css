@@ -1,0 +1,14 @@
+.container .content .list {
+    margin: 5px;
+    border: 1px dotted #aaa;
+}
+
+.container .content .list .title {
+    background: #ddd;
+    padding:5px;
+    font-weight: 900;
+}
+
+.container .content .list .content {
+    padding: 10px;
+}

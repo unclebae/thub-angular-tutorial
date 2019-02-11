@@ -1,0 +1,10 @@
+div.container{
+    display: grid;
+    grid-template-columns: 15% auto;
+    grid-gap: 10px;
+}
+
+div.right app-main-stage {
+    /* grid-row: 2 / 10; */
+    border: 1px solid red;
+}
