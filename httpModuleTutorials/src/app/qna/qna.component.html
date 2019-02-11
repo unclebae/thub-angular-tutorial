@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>QNA: </h1>
+  <div class="content">
+    <div class="list" *ngFor="let qnaItem of qanLists">
+        <div class="title">{{ qnaItem.title }}</div>
+        <div class="content">{{ qnaItem.content }}
+          <a *ngIf="qnaItem.openLink" href="{{ qnaItem.openLink }}" target="_blank">{{ qnaItem.openLink }}</a>
+        </div>
+    </div>
+  </div>
+</div>
